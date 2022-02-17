@@ -1,0 +1,151 @@
+
+/* Body */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E5E5E5;
+    min-width: 320px;
+    
+}
+
+/* Header */
+.hero-body {
+    border-style:solid;
+    border-color: #E5E5E5;
+    background-color: #F4A261;
+}
+
+/* Top Left of HTML - Headphone Image and Tangible Tunes */
+.logo {
+    display: flex;
+    font-size: 1.2rem;
+}
+
+#headphoneImage {
+    font-size: 2.4rem;
+}
+
+.tangible {
+padding-left: 10px;
+font-size: 1.6rem;
+font-weight: bold;
+}
+
+
+
+/* Search Bar */
+.field.has-addons {
+    display: flex;
+    justify-content: flex-end;
+    }
+
+    .button.is-info {
+        background-color: #E76F51;
+    
+    }
+
+    #buttonHistory.button {
+        background-color: #E76F51;
+        border-style: none;
+        color: white;
+        margin-left: 5px;
+        
+    }
+
+/* Columns for Song Choices / Lyrics / Videos */
+    .columns {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+        
+    }
+    
+
+    .songbuttons {
+         background-color: #E76F51;
+        color: white;
+        border-radius: .5rem;
+        border-style: none;
+        
+
+    }
+
+    .notification.is-primary{
+        background-color: #E76F51;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+
+
+
+/* Where Song choices and Video/Lyrics Go */
+.boxVideo, .boxLyrics, .songList {
+    visibility:hidden;
+    
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #F4A261;
+
+}
+
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 900px) {
+
+    .has-ratio {
+        height: 100px;
+        width: 200px;
+    }
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+
+    .has-ratio {
+        height: 100px;
+        width: 80px;
+    }
+
+    .notification.is-primary{
+        font-size: 14px;
+    }
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .has-ratio {
+        height: 100px;
+        width: 80px;
+    }
+
+    .notification.is-primary{
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+
+
