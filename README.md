@@ -6,7 +6,7 @@
 ## Active Link
 
 
-Click [here](https://mattjb97.github.io/Tangible-Tunes/) to be directed to the website.
+Click [here](https://BrianBellanger.github.io/Tangible-Tunes/) to be directed to the website.
 
 
 
